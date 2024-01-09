@@ -11,7 +11,7 @@ describe('tests calculated rates', function () {
   });
 
 
-  it("should handle terribly high interest rates", function () {
+  it("should handle high interest rates", function () {
     const values = {
       amount: 1000,
       years: 40,
