@@ -1,8 +1,16 @@
 describe('Helpers test (with setup and tear-down)', function () {
     beforeEach(function () {
         allPayments = {
-            payment1: { billAmt: 30, tipAmt: 10, tipPercent: 33 },
-            payment2: { billAmt: 30, tipAmt: 10, tipPercent: 33 }
+            payment1: {
+                billAmt: 30,
+                tipAmt: 10,
+                tipPercent: 33
+            },
+            payment2: {
+                billAmt: 30,
+                tipAmt: 10,
+                tipPercent: 33
+            }
         };
     });
     it('should return the sum each type of payment from the allPayments object with sumPaymentTotal()', function () {

@@ -73,6 +73,7 @@ function updateSummary() {
 
   summaryTds[0].innerHTML = '$' + sumPaymentTotal('billAmt');
   summaryTds[1].innerHTML = '$' + sumPaymentTotal('tipAmt');
-  summaryTds[2].innerHTML =  Math.round(tipPercentAvg) + '%';
+  summaryTds[2].innerHTML = Math.round(tipPercentAvg) + '%';
 }
+
 
